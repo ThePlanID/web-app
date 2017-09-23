@@ -1,0 +1,88 @@
+.metroHeader {
+	color: rgba(119, 119, 119, 0.68);
+    font-size: 30px;
+}
+.panel {
+	padding: 30px 20px 5px 20px;
+}
+.progress {
+	border-radius: 20px;
+	height: 31px;
+}
+.progress-bar {
+	
+	background-color: cadetblue;
+}
+.ProgressBar__Label--percentage {
+	float:right;
+	background-color: inherit;
+	font-size: 40px;
+	color: rgba(119, 119, 119, 0.68);
+}
+
+.statisticsCard {
+	height: 22.21rem;
+}
+
+.statisticsCard__span--title {
+	position: relative;
+    bottom: 2rem;
+    font-size: 20px;
+}
+.statisticsCard__span--percentage {
+	background-color: inherit;
+    color: rgba(119, 119, 119, 0.68);
+    left: 23rem;
+	top: -1rem;
+	font-size: 45px;
+    position: relative;
+}
+
+.infoCard__span--title {
+	position: relative;
+    bottom: 2rem;
+    font-size: 20px;
+}
+
+.infoCard__span--content {
+	background-color: inherit;
+    color: rgba(119, 119, 119, 0.68);
+    left: -2rem;
+    top: -1rem;
+    position: relative;
+    font-size: 70px;
+    display: block;
+}
+
+.infoCard__span--footer {
+	background-color: inherit;
+    color: #161515;
+    left: 14rem;
+    top: -3rem;
+	position: relative;
+	font-size: 20px;
+}
+
+.taskCard__titleLabel {
+	width: 9rem;
+    height: 7rem;
+    border-radius: 0px;
+    line-height: unset;
+    left: -2rem;
+    top: -1rem;
+    position: relative;
+    font-size: 40px;
+	display: inline-block;
+}
+
+.taskCard__titleLabel--0 {
+    background-color: rgba(103, 123, 120, 0.35);
+
+}
+
+.taskCard__titleLabel--25 {
+	background: linear-gradient(to right, rgba(33, 163, 139, 0.61) , rgba(103, 123, 120, 0.35));
+}
+
+
+
