@@ -4,7 +4,8 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "watch": "webpack --watch",
-    "format": "prettier --write --single-quote --parser=flow --tab-width=2 \"src/**/*.{js,jsx}\"",
+    "format":
+      "prettier --write --single-quote --parser=flow --tab-width=2 \"src/**/*.{js,jsx}\"",
     "lint": "eslint **/*{js,jsx} --quiet"
   },
   "dependencies": {
@@ -33,6 +34,7 @@
     "redux-thunk": "2.2.0",
     "style-loader": "^0.18.2",
     "styled-components": "2.0.0",
+    "uuid-v4": "^0.1.0",
     "webpack": "2.6.1",
     "webpack-dev-middleware": "1.10.2",
     "webpack-hot-middleware": "2.18.0",

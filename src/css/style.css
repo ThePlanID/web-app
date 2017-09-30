@@ -1,88 +1,215 @@
 .metroHeader {
-	color: rgba(119, 119, 119, 0.68);
-    font-size: 30px;
+  color: rgba(119, 119, 119, 0.68);
+  font-size: 30px;
 }
 .panel {
-	padding: 30px 20px 5px 20px;
+  padding: 30px 20px 5px 20px;
 }
-.progress {
-	border-radius: 20px;
-	height: 31px;
-}
-.progress-bar {
-	
-	background-color: cadetblue;
-}
+
 .ProgressBar__Label--percentage {
-	float:right;
-	background-color: inherit;
-	font-size: 40px;
-	color: rgba(119, 119, 119, 0.68);
+  float: right;
+  background-color: inherit;
+  font-size: 40px;
+  color: rgba(119, 119, 119, 0.68);
+}
+
+.progress-bar {
+  background-color: rgb(20, 214, 175);
 }
 
 .statisticsCard {
-	height: 22.21rem;
+  height: 22.21rem;
 }
 
 .statisticsCard__span--title {
-	position: relative;
-    bottom: 2rem;
-    font-size: 20px;
+  position: relative;
+  bottom: 2rem;
+  font-size: 20px;
 }
 .statisticsCard__span--percentage {
-	background-color: inherit;
-    color: rgba(119, 119, 119, 0.68);
-    left: 23rem;
-	top: -1rem;
-	font-size: 45px;
-    position: relative;
+  background-color: inherit;
+  color: rgba(119, 119, 119, 0.68);
+  left: 23rem;
+  top: -1rem;
+  font-size: 45px;
+  position: relative;
 }
 
 .infoCard__span--title {
-	position: relative;
-    bottom: 2rem;
-    font-size: 20px;
+  position: relative;
+  bottom: 2rem;
+  font-size: 20px;
 }
 
 .infoCard__span--content {
-	background-color: inherit;
-    color: rgba(119, 119, 119, 0.68);
-    left: -2rem;
-    top: -1rem;
-    position: relative;
-    font-size: 70px;
-    display: block;
+  background-color: inherit;
+  color: rgba(119, 119, 119, 0.68);
+  left: -2rem;
+  top: -1rem;
+  position: relative;
+  font-size: 70px;
+  display: block;
 }
 
 .infoCard__span--footer {
-	background-color: inherit;
-    color: #161515;
-    left: 14rem;
-    top: -3rem;
-	position: relative;
-	font-size: 20px;
+  background-color: inherit;
+  color: #161515;
+  left: 14rem;
+  top: -3rem;
+  position: relative;
+  font-size: 20px;
+}
+
+.taskCard__arrowCol {
+  float: right;
+}
+
+.taskCard__arrowImg {
+  width: 100%;
+}
+
+.taskCard__mainRow {
+  position: relative;
+  bottom: 5rem;
+}
+
+.taskCard__panel {
+  height: 17rem;
+}
+
+.taskCard__progressBar {
+  border-radius: 20px;
+  margin-top: 1rem;
+  height: 1.2rem;
+}
+
+.userProgress {
+  background-color: black;
+}
+
+.taskCard__progressBar--red {
+  background-color: rgb(197, 21, 21);
+}
+
+.taskCard__progressBar--green {
+  background-color: rgb(20, 214, 175);
+}
+
+.taskCard__progressBarColLabel {
+  width: 10%;
+}
+
+.taskCard__progressBarCol--0 {
+  width: 0%;
+}
+
+.taskCard__progressBarCol--25 {
+  width: 25%;
+}
+
+.taskCard__progressBarCol--50 {
+  width: 50%;
+}
+
+.taskCard__progressBarCol--75 {
+  width: 75%;
+}
+
+.taskCard__progressBarCol--100 {
+  width: 100%;
+}
+
+.taskCard__progressBarLabel {
+  background-color: inherit;
+  color: rgba(0, 0, 0, 0.59);
+  font-size: 18px;
+  position: absolute;
+  top: 6px;
+  padding: 0;
 }
 
 .taskCard__titleLabel {
-	width: 9rem;
-    height: 7rem;
-    border-radius: 0px;
-    line-height: unset;
-    left: -2rem;
-    top: -1rem;
-    position: relative;
-    font-size: 40px;
-	display: inline-block;
+  width: 9rem;
+  height: 7rem;
+  border-radius: 0px;
+  line-height: unset;
+  left: -2rem;
+  top: -1rem;
+  position: initial;
+  font-size: 40px;
+  display: inline-block;
 }
 
 .taskCard__titleLabel--0 {
-    background-color: rgba(103, 123, 120, 0.35);
-
+  background-color: rgba(103, 123, 120, 0.35);
 }
 
 .taskCard__titleLabel--25 {
-	background: linear-gradient(to right, rgba(33, 163, 139, 0.61) , rgba(103, 123, 120, 0.35));
+  background: linear-gradient(
+    to right,
+    rgba(20, 214, 178, 0.55),
+    rgba(103, 123, 120, 0.35)
+  );
 }
 
+.taskCard__titleLabel--50 {
+  background: linear-gradient(
+    to right,
+    rgba(20, 214, 178, 0.75),
+    rgba(103, 123, 120, 0.35)
+  );
+}
 
+.taskCard__titleLabel--75 {
+  background: linear-gradient(
+    to right,
+    rgba(20, 214, 175, 0.95),
+    rgba(103, 123, 120, 0.35)
+  );
+}
 
+.taskCard__titleLabel--100 {
+  background-color: rgb(20, 214, 175);
+}
+
+.taskProgressBar__mainRow {
+  position: relative;
+  bottom: 5rem;
+}
+
+.panel__title {
+  color: darkgrey;
+}
+
+.userPanel__mainRow {
+  position: relative;
+  bottom: 3rem;
+}
+.userPanel__userImg {
+  background: darkgrey;
+  width: 30%;
+}
+
+.userPanel__colImg {
+  width: 31%;
+}
+
+.userPanel__userName {
+  display: inline-block;
+}
+
+.userPanel__starImg {
+  position: relative;
+  bottom: 0.25rem;
+  padding-left: 0.7rem;
+}
+
+.userPanel__jobName {
+  display: block;
+}
+
+.userPanel__userTitle {
+  font-size: 20px;
+  left: 5rem;
+  position: absolute;
+}
