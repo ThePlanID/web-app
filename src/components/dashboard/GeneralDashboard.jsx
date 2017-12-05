@@ -1,8 +1,8 @@
-import React from "react";
-import { Col, Grid, Row } from "react-bootstrap";
-import Header from "../common/Header";
-import StatisticsCard from "../common/StatisticsCard";
-import InfoCard from "../common/InfoCard";
+import React from 'react';
+import { Col, Grid, Row } from 'react-bootstrap';
+import Header from '../common/Header';
+import StatisticsCard from '../common/StatisticsCard';
+import InfoCard from '../common/InfoCard';
 
 const GeneralDashboard = () => (
   <div className="content">
@@ -10,7 +10,7 @@ const GeneralDashboard = () => (
       <Header />
       <Row>
         <Col md={7}>
-          <StatisticsCard title="Eficiencia" percentage="35%" />
+          <StatisticsCard title="Eficiencia" percentage="35" />
         </Col>
         <Col md={5}>
           <InfoCard title="Dias consumidos" content="4" footer="Dias" />
@@ -18,7 +18,7 @@ const GeneralDashboard = () => (
       </Row>
       <Row>
         <Col md={7}>
-          <StatisticsCard title="Porcentaje de mejora" percentage="16%" />
+          <StatisticsCard title="Porcentaje de mejora" percentage="16" />
         </Col>
         <Col md={5}>
           <InfoCard title="Bloqueos" content="4" footer="Dias" />

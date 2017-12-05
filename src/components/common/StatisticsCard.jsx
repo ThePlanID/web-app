@@ -1,22 +1,27 @@
-import React from 'react'
-import {Panel, Label} from 'react-bootstrap'
-import { string } from 'prop-types'
+import React from 'react';
+import { Panel } from 'react-bootstrap';
+import { string } from 'prop-types';
+import CircularProgressbar from 'react-circular-progressbar';
 
-const StatisticsCard = ({title, percentage}) => (
-    <Panel className='statisticsCard'>
-        <span className='statisticsCard__span--title'>{title}</span>
-        <h1><Label className='statisticsCard__span--percentage'>{percentage}</Label></h1>
-    </Panel>
+const StatisticsCard = ({ title, percentage }) => (
+  <Panel className="statisticsCard">
+    <span className="statisticsCard__span--title">{title}</span>
+    <CircularProgressbar
+      percentage={percentage}
+      initialAnimation
+      className="statisticsCard__span--percentage"
+    />
+  </Panel>
 );
 
 StatisticsCard.propTypes = {
-    title: string,
-    percentage: string,
-}
+  title: string,
+  percentage: string
+};
 
 StatisticsCard.defaultProps = {
-    title: '',
-    percentage: ''
-}
+  title: '',
+  percentage: ''
+};
 
-export default StatisticsCard
+export default StatisticsCard;

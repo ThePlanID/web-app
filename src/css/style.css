@@ -1,215 +1,289 @@
-.metroHeader {
-  color: rgba(119, 119, 119, 0.68);
-  font-size: 30px;
+body {
+    background-color: #F2F2F2
 }
+
+.metroHeader {
+    color: rgba(119, 119, 119, 0.68);
+    font-size: 30px;
+}
+
 .panel {
-  padding: 30px 20px 5px 20px;
+    padding: 30px 20px 5px 20px;
 }
 
 .ProgressBar__Label--percentage {
-  float: right;
-  background-color: inherit;
-  font-size: 40px;
-  color: rgba(119, 119, 119, 0.68);
+    float: right;
+    background-color: inherit;
+    font-size: 40px;
+    color: rgba(119, 119, 119, 0.68);
 }
 
 .progress-bar {
-  background-color: rgb(20, 214, 175);
+    background-color: #21A3A3;
+}
+
+.row--white {
+    background-color: white;
 }
 
 .statisticsCard {
-  height: 22.21rem;
+    height: 22.21rem;
+    background-color: inherit;
+    border-color: white;
 }
 
 .statisticsCard__span--title {
-  position: relative;
-  bottom: 2rem;
-  font-size: 20px;
+    position: relative;
+    bottom: 2rem;
+    font-size: 20px;
 }
+
 .statisticsCard__span--percentage {
-  background-color: inherit;
-  color: rgba(119, 119, 119, 0.68);
-  left: 23rem;
-  top: -1rem;
-  font-size: 45px;
-  position: relative;
+    background-color: inherit;
+    color: rgba(119, 119, 119, 0.68);
+    left: 23rem;
+    top: -4rem;
+    font-size: 45px;
+    position: relative;
+}
+
+.infoCard__panel {
+    background-color: inherit;
+    border-color: white;
 }
 
 .infoCard__span--title {
-  position: relative;
-  bottom: 2rem;
-  font-size: 20px;
+    position: relative;
+    bottom: 2rem;
+    font-size: 20px;
 }
 
 .infoCard__span--content {
-  background-color: inherit;
-  color: rgba(119, 119, 119, 0.68);
-  left: -2rem;
-  top: -1rem;
-  position: relative;
-  font-size: 70px;
-  display: block;
+    background-color: inherit;
+    color: rgba(119, 119, 119, 0.68);
+    left: -2rem;
+    top: -1rem;
+    position: relative;
+    font-size: 70px;
+    display: block;
 }
 
 .infoCard__span--footer {
-  background-color: inherit;
-  color: #161515;
-  left: 14rem;
-  top: -3rem;
-  position: relative;
-  font-size: 20px;
+    background-color: inherit;
+    color: #161515;
+    left: 14rem;
+    top: -3rem;
+    position: relative;
+    font-size: 20px;
 }
 
 .taskCard__arrowCol {
-  float: right;
+    float: right;
 }
 
 .taskCard__arrowImg {
-  width: 100%;
+    width: 100%;
 }
 
 .taskCard__mainRow {
-  position: relative;
-  bottom: 5rem;
+    position: relative;
+    bottom: 5rem;
 }
 
 .taskCard__panel {
-  height: 17rem;
+    height: 17rem;
+    background-color: inherit;
+    border-color: white;
 }
 
 .taskCard__progressBar {
-  border-radius: 20px;
-  margin-top: 1rem;
-  height: 1.2rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    height: 1.2rem;
 }
 
 .userProgress {
-  background-color: black;
+    background-color: black;
 }
 
 .taskCard__progressBar--red {
-  background-color: rgb(197, 21, 21);
+    background-color: rgb(197, 21, 21);
 }
 
 .taskCard__progressBar--green {
-  background-color: rgb(20, 214, 175);
+    background-color: rgb(20, 214, 175);
 }
 
 .taskCard__progressBarColLabel {
-  width: 10%;
+    width: 10%;
 }
 
 .taskCard__progressBarCol--0 {
-  width: 0%;
+    width: 0%;
 }
 
 .taskCard__progressBarCol--25 {
-  width: 25%;
+    width: 25%;
 }
 
 .taskCard__progressBarCol--50 {
-  width: 50%;
+    width: 50%;
 }
 
 .taskCard__progressBarCol--75 {
-  width: 75%;
+    width: 75%;
 }
 
 .taskCard__progressBarCol--100 {
-  width: 100%;
+    width: 100%;
 }
 
 .taskCard__progressBarLabel {
-  background-color: inherit;
-  color: rgba(0, 0, 0, 0.59);
-  font-size: 18px;
-  position: absolute;
-  top: 6px;
-  padding: 0;
+    background-color: inherit;
+    color: rgba(0, 0, 0, 0.59);
+    font-size: 18px;
+    position: absolute;
+    top: 6px;
+    padding: 0;
 }
 
 .taskCard__titleLabel {
-  width: 9rem;
-  height: 7rem;
-  border-radius: 0px;
-  line-height: unset;
-  left: -2rem;
-  top: -1rem;
-  position: initial;
-  font-size: 40px;
-  display: inline-block;
+    width: 9rem;
+    height: 7rem;
+    border-radius: 0px;
+    line-height: unset;
+    left: -2rem;
+    top: -1rem;
+    position: initial;
+    font-size: 40px;
+    display: inline-block;
 }
 
 .taskCard__titleLabel--0 {
-  background-color: rgba(103, 123, 120, 0.35);
+    background-color: rgba(103, 123, 120, 0.35);
 }
 
 .taskCard__titleLabel--25 {
-  background: linear-gradient(
-    to right,
-    rgba(20, 214, 178, 0.55),
-    rgba(103, 123, 120, 0.35)
-  );
+    background: linear-gradient( to right, rgba(20, 214, 178, 0.55), rgba(103, 123, 120, 0.35));
 }
 
 .taskCard__titleLabel--50 {
-  background: linear-gradient(
-    to right,
-    rgba(20, 214, 178, 0.75),
-    rgba(103, 123, 120, 0.35)
-  );
+    background: linear-gradient( to right, rgba(20, 214, 178, 0.75), rgba(103, 123, 120, 0.35));
 }
 
 .taskCard__titleLabel--75 {
-  background: linear-gradient(
-    to right,
-    rgba(20, 214, 175, 0.95),
-    rgba(103, 123, 120, 0.35)
-  );
+    background: linear-gradient( to right, rgba(20, 214, 175, 0.95), rgba(103, 123, 120, 0.35));
 }
 
 .taskCard__titleLabel--100 {
-  background-color: rgb(20, 214, 175);
+    background-color: rgb(20, 214, 175);
 }
 
 .taskProgressBar__mainRow {
-  position: relative;
-  bottom: 5rem;
+    position: relative;
+    bottom: 5rem;
 }
 
 .panel__title {
-  color: darkgrey;
+    color: darkgrey;
 }
 
 .userPanel__mainRow {
-  position: relative;
-  bottom: 3rem;
+    position: relative;
+    bottom: 3rem;
 }
+
 .userPanel__userImg {
-  background: darkgrey;
-  width: 30%;
+    background: darkgrey;
+    width: 30%;
 }
 
 .userPanel__colImg {
-  width: 31%;
+    width: 31%;
 }
 
 .userPanel__userName {
-  display: inline-block;
+    display: inline-block;
 }
 
 .userPanel__starImg {
-  position: relative;
-  bottom: 0.25rem;
-  padding-left: 0.7rem;
+    position: relative;
+    bottom: 0.25rem;
+    padding-left: 0.7rem;
 }
 
 .userPanel__jobName {
-  display: block;
+    display: block;
 }
 
 .userPanel__userTitle {
-  font-size: 20px;
-  left: 5rem;
-  position: absolute;
+    font-size: 20px;
+    left: 5rem;
+    position: absolute;
+}
+
+
+/*
+ * react-circular-progressbar styles
+ *
+ * All of the styles in this file are optional and configurable!
+ */
+
+.CircularProgressbar {
+    /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   *
+   * If you're not using "display: flex", you can remove this style.
+   */
+    width: 25%;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: rgb(20, 214, 175);
+    ;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: rgba(119, 119, 119, 0.68);
+    font-size: 20px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+}
+
+
+/*
+ * Sample background styles. Use these with e.g.:
+ *
+ *   <CircularProgressbar
+ *     className="CircularProgressbar-inverted"
+ *     background
+ *     percentage={50}
+ *   />
+ */
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+    fill: #3e98c7;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+    fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
 }

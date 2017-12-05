@@ -4,8 +4,7 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "watch": "webpack --watch",
-    "format":
-      "prettier --write --single-quote --parser=flow --tab-width=2 \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write --single-quote --parser=flow --tab-width=2 \"src/**/*.{js,jsx}\"",
     "lint": "eslint **/*{js,jsx} --quiet"
   },
   "dependencies": {
@@ -27,6 +26,7 @@
     "react": "^15.5.4",
     "react-addons-perf": "15.4.2",
     "react-bootstrap": "^0.31.3",
+    "react-circular-progressbar": "^0.5.0",
     "react-dom": "^15.5.4",
     "react-redux": "5.0.5",
     "react-router-dom": "4.1.1",
