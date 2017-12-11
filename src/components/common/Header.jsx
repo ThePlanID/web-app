@@ -1,28 +1,47 @@
-import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
-import TaskProgressBar from "./TaskProgressBar";
+import React from 'react';
+// import { shape, object } from 'prop-types';
+import { Button, Col, Row } from 'react-bootstrap';
+import GeneralProgressBar from './GeneralProgressBar';
+import Section from './Section';
 
-const Header = () => (
+/*eslint-disable */
+const Header = props => (
   <header className="metroHeader">
-    <h1>Metro Card</h1>
-    <Row>
-      <Col md={4}>
-        <Button href="/">General</Button>
-      </Col>
-      <Col md={4} mdPull={3}>
-        <Button href="/stages">Etapas</Button>
-      </Col>
-      <Col md={4} mdPull={6}>
-        <Button href="/people">Personas</Button>
-      </Col>
-    </Row>
+
+    <Section>
+      <h1>Metro Card</h1>
+      <Row className="metroHeader__btnCol">
+        <Col md={2}>
+          <Button
+            href="/"
+            className={props.route.path === '/' ? 'btn--on' : ''}
+          >
+            General
+          </Button>
+        </Col>
+        <Col md={2}>
+          <Button
+            href="/stages"
+            className={props.route.path === '/stages' ? 'btn--on' : ''}
+          >
+            Stages
+          </Button>
+        </Col>
+        <Col md={2}>
+          <Button
+            href="/people"
+            className={props.route.path === '/people' ? 'btn--on' : ''}
+          >
+            People
+          </Button>
+        </Col>
+      </Row>
+    </Section>
     <br />
-    <Row>
-      <Col md={12}>
-        <TaskProgressBar />
-      </Col>
-    </Row>
+    <Section title="Progress">
+      <GeneralProgressBar />
+    </Section>
+
   </header>
 );
-
 export default Header;
